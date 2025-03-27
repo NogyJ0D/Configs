@@ -48,6 +48,7 @@
 - ⭐ [SponsorBlock](https://addons.mozilla.org/es-AR/firefox/addon/sponsorblock/): saltador de anuncios (no publicidades) en youtube.
   - En la configuración se ve y modifica el ID de usuario. Cambia cada vez que se instala y es mejor que poner siempre el mismo.
 - ⭐ [Undo Close Tab](https://addons.mozilla.org/es-AR/firefox/addon/undoclosetabbutton/): botón e historial para abrir pestañas cerradas.
+- ⭐ [I don't care about cookies](https://addons.mozilla.org/es-ES/firefox/addon/i-dont-care-about-cookies/): rechazar cookies no necesarias automáticamente.
 
 ## Extras
 
