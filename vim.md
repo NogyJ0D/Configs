@@ -14,6 +14,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set autoindent
+" No perder la seleccion al indentar
+vnoremap > >gv
+vnoremap < <gv
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
