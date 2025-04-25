@@ -35,6 +35,14 @@
 | browser.tabs.loadDivertedInBackground | true  | No cambiar de pestaña al abrir un link en otra pestaña. |
 | toolkit.tabbox.switchByScrolling      | true  | Moverse entre las pestañas con la rueda del mouse.      |
 
+## user.js
+
+1. Ir a "about:profiles".
+2. Abrir la carpeta raíz del perfil en uso.
+3. Descargar archivo firefox_user.js
+4. Mover archivo a la carpeta como user.js
+5. Reiniciar Firefox.
+
 ## Extensiones
 
 ⭐: Siempre instalar.
