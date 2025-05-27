@@ -1,8 +1,11 @@
 # vim
 
-## ~/.vimrc
+## /etc/vim/vimrc.local, ~/.vimrc
 
 ```ini
+" Si no funciona set mouse=, descomentar la siguiente
+" let g:skip_defaults_vim = 1
+
 " Simple configuration
 set nocompatible
 
@@ -34,11 +37,13 @@ set tw=10000
 set sm
 
 " Default UI color
-set background=dark
+"set background=dark
+colorscheme desert
 set nobackup
 if !has("eval")
   set nofoldenable
 endif
+set cursorline
 
 " No mouse
 set mouse=
