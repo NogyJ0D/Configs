@@ -6,6 +6,9 @@
 " Simple configuration
 set nocompatible
 
+set list
+set lcs+=space:.
+
 set viminfo='1000,f1,:1000,/1000
 set history=500
 
@@ -17,6 +20,9 @@ set autoindent
 " No perder la seleccion al indentar
 vnoremap > >gv
 vnoremap < <gv
+
+nnoremap q: <nop>
+nnoremap Q <nop>
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
