@@ -9,6 +9,7 @@ colorscheme COLOR # Y agregar a vimrc
 ```
 
 - [Sonokai](https://github.com/sainnhe/sonokai)
+- [PaperColor](https://github.com/NLKNguyen/papercolor-theme)
 
 ## /etc/vim/vimrc.local, ~/.vimrc
 
