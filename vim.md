@@ -1,5 +1,15 @@
 # vim
 
+## Color schemes
+
+```sh
+mkdir -p ~/.vim/colors # Crear carpeta de temas
+wget COLOR.vim -O ~/.vim/colors/COLOR.vim
+colorscheme COLOR # Y agregar a vimrc
+```
+
+- [Sonokai](https://github.com/sainnhe/sonokai)
+
 ## /etc/vim/vimrc.local, ~/.vimrc
 
 ```ini
