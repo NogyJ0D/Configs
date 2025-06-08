@@ -3,6 +3,12 @@
 // Misc
 user_pref('browser.tabs.loadDivertedInBackground', true);
 user_pref('toolkit.tabbox.switchByScrolling', true);
+user_pref('browser.startup.homepage', 'https://duckduckgo.com');
+user_pref('general.smoothScroll', false);
+user_pref('media.videocontrols.picture-in-picture.video-toggle.enabled', false);
+user_pref('sidebar.main.tools', 'syncedtabs,history,bookmarks');
+user_pref('sidebar.visibility', 'hide-sidebar');
+user_pref('browser.translations.automaticallyPopup', false);
 
 // Telemetría
 user_pref('devtools.onboarding.telemetry.logged', false);
