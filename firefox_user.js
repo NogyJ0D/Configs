@@ -7,7 +7,7 @@ user_pref('browser.startup.homepage', 'https://duckduckgo.com');
 user_pref('general.smoothScroll', false);
 user_pref('media.videocontrols.picture-in-picture.video-toggle.enabled', false);
 user_pref('sidebar.main.tools', 'syncedtabs,history,bookmarks');
-user_pref('sidebar.visibility', 'hide-sidebar');
+user_pref('sidebar.verticalTabs', true);
 user_pref('browser.translations.automaticallyPopup', false);
 
 // Telemetría
