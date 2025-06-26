@@ -20,8 +20,9 @@ colorscheme COLOR # Y agregar a vimrc
 " Simple configuration
 set nocompatible
 
-set list
-set lcs+=space:.
+" Caracteres no imprimibles (se quedan en el copy)
+" set list
+" set lcs+=space:.
 
 set viminfo='1000,f1,:1000,/1000
 set history=500
@@ -46,10 +47,11 @@ set tw=10000
 
 " Show matching brackets
 set sm
+set showmatch
 
 " Default UI color
 "set background=dark
-colorscheme desert
+" colorscheme desert
 set nobackup
 if !has("eval")
   set nofoldenable
@@ -69,9 +71,6 @@ endif
 
 " Show command
 set showcmd
-
-" Highlight matching paterns
-set showmatch
 
 " Search options
 set hlsearch
